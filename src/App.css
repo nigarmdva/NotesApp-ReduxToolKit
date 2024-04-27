@@ -1,0 +1,52 @@
+/* App.css */
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  color: #fff;
+  background-color: #282c34;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #707b92;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:#484f5e;
+}
+
+button.important {
+  background-color: green;
+}
+
+button.important:hover {
+  background-color: darkred;
+}
+
+ul {
+  list-style: none;
+  line-height: 3em;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
